@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra nam nhuan</title>
+</head>
+<body>
+<script>
+    let value = prompt('moi ban nhap so vao day');
+    if(value%4==0){
+        if(value%100==0){
+            if (value%400==0){
+                alert('nay nam la nam nhuan'+value);
+            }else {
+                alert('khong phai la nam nhuan'+value);
+        }
+        }else {
+            alert('nam nay la nam nhuan'+value);
+        }
+    }else {
+        alert('khong phai la nam nhuan '+value);
+    }
+</script>
+</body>
+</html>
